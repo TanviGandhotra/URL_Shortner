@@ -30,24 +30,6 @@ A Node.js-based web application to shorten long URLs, similar to bit.ly. Built u
 
 <img width="1870" height="745" alt="image" src="https://github.com/user-attachments/assets/9b245aaf-da48-45f0-9833-e5887820635b" />
 
-
-## ⚙️ How to Run
-
-```bash
-git clone https://github.com/TanviGandhotra/URL_Shortner.git
-cd URL_Shortner
-
-npm install
-
-# Make sure MongoDB is running locally
-mongod
-
-# Start the server
-node index.js
-
-# Open in browser
-http://localhost:5000
-
 ## 🔗 Usage
 
 - Open the app in your browser: `http://localhost:5000`
@@ -56,6 +38,9 @@ http://localhost:5000
 - The shortened URL will appear in the table below
 - Click on the short URL to visit the original site
 - The **Clicks** column tracks how many times the short URL has been clicked
+<img width="960" height="180" alt="image" src="https://github.com/user-attachments/assets/cd9c1bf5-73d1-464e-885a-4c20955f0c5d" />
+
+
 ## 📌 Requirements
 
 To run this project locally, make sure you have:
@@ -66,7 +51,28 @@ To run this project locally, make sure you have:
 - Internet access (for Bootstrap CDN)
 - Code editor like VS Code (optional but recommended)
 
-  
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/TanviGandhotra/URL_Shortner.git
+cd URL_Shortner
+
+# Step 2: Install dependencies
+npm install
+
+# Step 3: Make sure MongoDB is running locally (on port 27017)
+
+# Step 4: Start the app
+node index.js
+
+# Step 5: Open in browser
+http://localhost:5000
+```
+
 ## 🙋‍♀️ Author
 
 **Tanvi Gandhotra**  
