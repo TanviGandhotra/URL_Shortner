@@ -31,6 +31,23 @@ A Node.js-based web application to shorten long URLs, similar to bit.ly. Built u
 <img width="1870" height="745" alt="image" src="https://github.com/user-attachments/assets/9b245aaf-da48-45f0-9833-e5887820635b" />
 
 
+## ⚙️ How to Run
+
+```bash
+git clone https://github.com/TanviGandhotra/URL_Shortner.git
+cd URL_Shortner
+
+npm install
+
+# Make sure MongoDB is running locally
+mongod
+
+# Start the server
+node index.js
+
+# Open in browser
+http://localhost:5000
+
 ## 🔗 Usage
 
 - Open the app in your browser: `http://localhost:5000`
@@ -57,3 +74,11 @@ To run this project locally, make sure you have:
 👩‍💻 [GitHub](https://github.com/TanviGandhotra)  
 💼 Vice Tech Head @ Microsoft Learn Student Chapter  
 
+
+## ⭐ Support
+
+If you like this project:
+
+- Give it a ⭐ on [GitHub](https://github.com/TanviGandhotra/URL_Shortner)
+- Share it with others!
+- Use it, modify it, and contribute ideas 🤝
