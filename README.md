@@ -28,9 +28,32 @@ A Node.js-based web application to shorten long URLs, similar to bit.ly. Built u
 
 ## 📸 Preview
 
-> Add a screenshot here if you have one  
-> (optional but makes your project look more professional)
+<img width="1870" height="745" alt="image" src="https://github.com/user-attachments/assets/9b245aaf-da48-45f0-9833-e5887820635b" />
 
-```bash
-# Example:
-# ![Screenshot](./preview.png)
+
+## 🔗 Usage
+
+- Open the app in your browser: `http://localhost:5000`
+- Enter a long URL in the input field (e.g., https://www.google.com)
+- Click the **"Shrink"** button
+- The shortened URL will appear in the table below
+- Click on the short URL to visit the original site
+- The **Clicks** column tracks how many times the short URL has been clicked
+## 📌 Requirements
+
+To run this project locally, make sure you have:
+
+- [Node.js](https://nodejs.org/) installed
+- [MongoDB](https://www.mongodb.com/try/download/community) installed and running locally on port 27017
+- npm (Node Package Manager)
+- Internet access (for Bootstrap CDN)
+- Code editor like VS Code (optional but recommended)
+
+  
+## 🙋‍♀️ Author
+
+**Tanvi Gandhotra**  
+📍 Pathankot, Punjab  
+👩‍💻 [GitHub](https://github.com/TanviGandhotra)  
+💼 Vice Tech Head @ Microsoft Learn Student Chapter  
+
